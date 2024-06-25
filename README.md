@@ -8,6 +8,8 @@ ROS2 - REST Interface Node Design
 The `ros_rest_relay` node bridges ROS2 and REST API, allowing HTTP GET and POST requests to interact with dynamic ROS topics.
 
 ## Components
+- package name : `ros_rest_interface`
+- node name    : `ros_rest_relay`
 
 ### ROS2 Node
 - Dynamically subscribes to and publishes on ROS topics based on API requests.
@@ -23,10 +25,10 @@ The `ros_rest_relay` node bridges ROS2 and REST API, allowing HTTP GET and POST 
 
 ## Usage
 - Build the Ros2 package:  
-`cd /path/to/your/bluewhite_ws`
+`cd /path/to/your/ros2_ws`
 `colcon build --packages-select ros_rest_interface`
 - Source Ros2 worksspace : 
-`source /path/to/your/bluewhite_ws/install/setup.bash`   
+`source /path/to/your/ros2_ws/install/setup.bash`   
 - Start the node:
 `ros2 run ros_rest_interface ros_rest_relay`
 - Access via REST API at `http://localhost:8080`
