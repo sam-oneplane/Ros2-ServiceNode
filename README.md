@@ -1,5 +1,5 @@
 # Ros2-RestNode
-ROS2 - REST Interface Node Design
+ROS2 - REST API for Ros Topic interacton Node Design
 
 ## Ros2 version 
 - ros humble
