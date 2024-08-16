@@ -1,5 +1,5 @@
-# Ros2-RestNode
-ROS2 - REST API for Ros Topic interacton Node Design
+# Ros2-RequestNode
+ROS2 - Http req. for Ros Topic interacton Node Design
 
 ## Ros2 version 
 - ros humble
@@ -14,7 +14,7 @@ The `ros_rest_relay` node bridges ROS2 and REST API, allowing HTTP GET and POST 
 ### ROS2 Node
 - Dynamically subscribes to and publishes on ROS topics based on API requests.
 
-### REST API
+### Node API
 - `GET /{topic_name}`: Returns the latest message from the specified topic.
 - `POST /{topic_name}`: Publishes a message to the specified topic.
 
