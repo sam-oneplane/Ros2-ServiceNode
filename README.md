@@ -1,4 +1,4 @@
-# Ros2-RequestNode
+# Ros2-ServiceNode
 ROS2 - Http req. for Ros Topic interacton Node Design
 
 ## Ros2 version 
